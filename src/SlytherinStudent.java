@@ -1,4 +1,4 @@
-public class SlytherinStudent extends HogwartsStudent{
+public class SlytherinStudent extends HogwartsStudent {
     private int cunning;
     private int determination;
     private int ambition;
@@ -53,6 +53,7 @@ public class SlytherinStudent extends HogwartsStudent{
     public void setLustForPower(int lustForPower) {
         this.lustForPower = lustForPower;
     }
+
     private int calculateCompositePower() {
         return this.cunning + this.determination + this.ambition + this.resourcefulness + this.lustForPower;
 

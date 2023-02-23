@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
 
-        GryffindorStudent harryPotter = new GryffindorStudent( "Harry Potter",
+        GryffindorStudent harryPotter = new GryffindorStudent("Harry Potter",
                 80,
                 60,
                 100,
                 90,
                 100);
-        GryffindorStudent hermioneJeanGranger = new GryffindorStudent( "Hermione Jean Granger",
+        GryffindorStudent hermioneJeanGranger = new GryffindorStudent("Hermione Jean Granger",
                 70,
                 40,
                 90,
@@ -21,7 +21,7 @@ public class Main {
                 85);
 
 
-        SlytherinStudent  dracoLuciusMalfoy = new SlytherinStudent("Draco Lucius Malfoy",
+        SlytherinStudent dracoLuciusMalfoy = new SlytherinStudent("Draco Lucius Malfoy",
                 65,
                 75,
                 45,
@@ -30,7 +30,7 @@ public class Main {
                 80,
                 88);
 
-        SlytherinStudent  grahamMontague = new SlytherinStudent("Graham Montague",
+        SlytherinStudent grahamMontague = new SlytherinStudent("Graham Montague",
                 74,
                 86,
                 77,
@@ -38,7 +38,7 @@ public class Main {
                 75,
                 90,
                 100);
-        SlytherinStudent  gregoryGoyle = new SlytherinStudent("Gregory Goyle",
+        SlytherinStudent gregoryGoyle = new SlytherinStudent("Gregory Goyle",
                 44,
                 76,
                 79,
