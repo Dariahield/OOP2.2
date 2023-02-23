@@ -48,13 +48,13 @@ public class HufflepuffStudent extends HogwartsStudent {
         }
     }
 
-        @Override
-        public String toString () {
-            return "HufflepuffStudent{" +
-                    "industrious=" + industrious +
-                    ", loyalty=" + loyalty +
-                    ", honesty=" + honesty +
-                    "} " + super.toString();
-        }
+    @Override
+    public String toString() {
+        return "HufflepuffStudent{" +
+                "industrious=" + industrious +
+                ", loyalty=" + loyalty +
+                ", honesty=" + honesty +
+                "} " + super.toString();
     }
+}
 

@@ -29,6 +29,7 @@ public class HogwartsStudent {
     public void setTransgressionDistance(int transgressionDistance) {
         this.transgressionDistance = transgressionDistance;
     }
+
     public void compareStudents(HogwartsStudent hogwartsStudent) {
         if (this.magicPower + this.transgressionDistance > hogwartsStudent.magicPower + hogwartsStudent.transgressionDistance) {
             System.out.println(this.getName() + "is better Hogwarts student than " + hogwartsStudent.getName());
